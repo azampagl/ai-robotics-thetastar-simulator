@@ -58,7 +58,7 @@ else: SONAME="so"
 
 CONFIG(debug, debug|release) {
    DESTDIR = "$$PWD/bin/debug"
-   LIBS += -L$$PWD/../thetastar/bin/debug -lthetastar.1.0.0
+   LIBS += -L$$PWD/../thetastar/bin/debug -lthetastar
 }
 CONFIG(release, debug|release) {
    DEFINES += QT_NO_DEBUG_OUTPUT
